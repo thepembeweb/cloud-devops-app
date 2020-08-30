@@ -12,7 +12,6 @@ pipeline {
     stage('React') {
       steps {
         dir('my-app') {
-            sh "npm install -g yarn"
             sh 'yarn install'
             sh 'yarn lint'
             sh 'yarn test'
