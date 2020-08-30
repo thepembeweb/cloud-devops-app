@@ -28,7 +28,7 @@ pipeline {
     }
     stage('Kubernetes') {
       steps{
-        withAWS(credentials: 'aws-kubernetes', region: 'us-east-1'){
+        withAWS(credentials: 'aws-udacity-devops', region: 'us-east-1'){
 		      sh 'aws eks --region us-east-1 update-kubeconfig --name cloud-devops-app-cluster'
           sh 'kubectl apply -f ./deployment/eks-deployment.yml'
           sh 'kubectl set image deployment/cloud-devops-app-deploy cloud-devops-app-pod=pabloalbaladejo/cloud-devops-app:latest --record'
