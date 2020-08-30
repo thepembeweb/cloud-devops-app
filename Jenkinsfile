@@ -11,7 +11,7 @@ pipeline {
     }
     stage('React') {
       steps {
-        dir('my-app') {
+        dir('sample-app') {
             sh 'yarn cache clean'
             sh 'yarn install'
             sh 'yarn lint'
