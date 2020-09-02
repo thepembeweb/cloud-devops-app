@@ -5,7 +5,7 @@ function App () {
   return (
     <div className='App'>
       <header className='App-header'>
-        <p>Cloud DevOps Sample App</p>
+        <p>Cloud DevOps Sample1 App</p>
       </header>
     </div>
   )
