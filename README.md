@@ -103,29 +103,25 @@ $ ./run_eks_kubernetes
 
 ### Running CI/CD - Jenkins Pipeline
 
-#### React
+#### A) React Step
 ![jenkins-react](./screenshots/lint-success.png)
 
-#### Linting
- 
-##### Fail
-   ![linting-error](./screenshots/lint-error.png)
+#### B) Linting Step
+##### Linting Step - Fail
+![linting-error](./screenshots/lint-error.png)
+##### Linting Step - Pass
+![linting-success](./screenshots/lint-success.png)
 
-##### Pass
-   ![linting-success](./screenshots/lint-success.png)
-
-#### Test
-
- - Fail
+#### C) Test
+##### Test Step - Fail
    ![test-error](./screenshots/test-error.png)
-
- - Pass
+##### Test Step - Pass
    ![test-success](./screenshots/test-success.png)
 
-#### Docker
+#### D) Docker
 ![jenkins-docker](./screenshots/docker-success.png)
 
-* Kubernetes
+#### E) Kubernetes
 ![jenkins-kubernetes](./screenshots/k8s-success.png)
 ![jenkins-kubernetes](./screenshots/k8s-success2.png)
 
