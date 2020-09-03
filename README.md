@@ -13,7 +13,7 @@ The tasks involved included:
 
 ![](jenkins-logo.png)
 ![](docker_logo.png)
-![](k8s-logo.png)
+![](kubernetes-logo.png)
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
