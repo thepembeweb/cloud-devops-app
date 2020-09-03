@@ -1,6 +1,6 @@
 # Cloud DevOps Nanodegree Capstone Project
 
-> This project demonstrates a CI/CD pipeline for a micro services application with rolling deployment. In addition, it also demonstrates Continuous Integration steps that include typographical checking e.g linting and unit tests.
+> This project demonstrates a CI/CD pipeline for a micro services application with rolling deployment. In addition, it also demonstrates Continuous Integration steps that include typographical checking like linting and unit tests.
 
 The tasks involved included:
 * Working in AWS
