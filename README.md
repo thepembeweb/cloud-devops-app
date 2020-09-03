@@ -108,10 +108,10 @@ $ ./run_eks_kubernetes
 
 #### Linting
  
- - Fail
+##### Fail
    ![linting-error](./screenshots/lint-error.png)
 
- - Pass
+##### Pass
    ![linting-success](./screenshots/lint-success.png)
 
 #### Test
