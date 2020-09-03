@@ -96,19 +96,17 @@ $ ./run_eks_kubernetes
 ### Setting up an CI/CD - Jenkins Server
 
 * Create an EC2 instance
-
 * Install Jenkins   
  - Install BlueOcean and AWS plugins
  - Setup Github repo webhook
-
 * Install node, AWS cli and kubectl
 
 ### Running CI/CD - Jenkins Pipeline
 
-* React
+#### React
 ![jenkins-react](./screenshots/lint-success.png)
 
-* Linting
+#### Linting
  
  - Fail
    ![linting-error](./screenshots/lint-error.png)
@@ -116,7 +114,7 @@ $ ./run_eks_kubernetes
  - Pass
    ![linting-success](./screenshots/lint-success.png)
 
-* Test
+#### Test
 
  - Fail
    ![test-error](./screenshots/test-error.png)
@@ -124,7 +122,7 @@ $ ./run_eks_kubernetes
  - Pass
    ![test-success](./screenshots/test-success.png)
 
-* Docker
+#### Docker
 ![jenkins-docker](./screenshots/docker-success.png)
 
 * Kubernetes
